@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Duke University ECE/ENERGY 590: Introduction to Machine Learning for Data Science</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+  <!-- Google fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+  <!-- Google Analytics -->
+  <script>
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body onload="page_loaded()">
+
+<div id="header">
+  <h1>ECE/ENERGY 590: Introduction to Machine Learning for Data Science</h1>
+  <div class='text-center'>
+    <h4>Duke University</h4>
+    <h4>Spring 2018</h4>
+  </div>
+  <div style="clear:both;"></div>
+
+</div>
+
+<div class="sechighlight">
+<div class="container sec">
+  <h2>Course Description</h2>
+
+  <div id="coursedesc">In almost every field, there is a need to draw inference from or make decisions based on data. The goal of this course is to provide an introduction to machine learning that is approachable to diverse disciplines and empowers students to become proficient in the foundational concepts and tools while working with interdisciplinary real-world data. You will learn to (a) structure a machine learning problem, (b) determine which algorithmic tools are applicable to a given problem, (c) apply those algorithmic tools to diverse, interdisciplinary data examples, (d) evaluate the performance of your solution, and (e) how to accurately interpret and communicate your results. This course is a fast-paced, applied introduction to machine learning that arms you with the basic skills you will need in practice to both conduct analyses and effectively communicate your results.
+  </div>
+</div>
+</div>
+
+<div class="container sec">
+<div class="row">
+  <div class="col-md-6">
+    <h2>Instructors</h2>
+    <div class="instructor">
+      <a href="http://www.kylebradbury.org/">
+      <div class="instructorphoto"><img src="img/kylebradbury.jpg"></div>
+      <div>Kyle Bradbury</div>
+      </a>
+    </div>
+
+    <div class="instructor">
+      <a href="http://ece.duke.edu/faculty/leslie-collins">
+      <div class="instructorphoto"><img src="img/lesliecollins.jpg"></div>
+      <div>Leslie Collins</div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <h2>Teaching Assistant</h2>
+    
+     <div class="instructor">
+      <a href="https://www.linkedin.com/in/bohao-huang-233a98105">
+        <div class="instructorphoto"><img src="img/bohaohuang.jpg"></div>
+        <div>Bohao Huang</div>
+      </a>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<div class="sechighlight">
+<div style="text-align:center; padding:40px 0px 40px 0px;">
+  <a href="syllabus.html" style="margin-right:50px">
+    <button type="button" class="btn btn-success btn-lg">Detailed Course Syllabus</button>
+  </a>
+  <a href="www.kylebradbury.org/datascience.html" style="margin-right:50px">
+    <button type="button" class="btn btn-success btn-lg">Data Science Resources</button>
+  </a>
+  
+</div>
+</div>
+
+<div class="container sec">
+  <div class="row">
+    <div class="col-md-4">
+      <h2>Class Time and Location</h2>
+      Monday and Wednesday 10:05am-11:20am<br>
+      Gross Hall 100C (the Generator)
+    </div>
+    <div class="col-md-4">
+      <h2>Office Hours and Email</h2>
+      Kyle Bradbury (<a href="mailto:kyle.bradbury@duke.edu">kyle.bradbury@duke.edu</a>)<br>
+      Office: Gross Hall 102L<br>
+      Hours: Mon 2-4pm, Tues 1:30-2:30pm<br><br>
+      Leslie Collins (<a href="mailto:leslie.collins@duke.edu">leslie.collins@duke.edu</a>)<br>
+      Office: CIEMAS 3461<br>
+      Hours: TBD<br><br>
+      Bohao Huang (<a href="mailto:bohao.huang@duke.edu">bohao.huang@duke.edu</a>)<br>
+      Office: CIEMAS TBD<br>
+      Hours: Tues 3-5pm, Fri 10–11am
+    </div>
+    <div class="col-md-4">
+      <h2>Have questions?</h2>
+      We welcome your questions about the course including lectures, assignments, projects, and logistics on <a href="">Piazza</a>. Email the TA or instructor about questions that specifically pertain to you as an individual. Questions within 24 hours of a due date are unlikely to get a response - please plan accordingly.
+    </div>
+  </div>
+</div>
+
+<div class="container sec">
+  <div class="row">
+
+    <div class="col-md-4">
+      <h2>Grading</h2>
+      Class participation: 5%<br>
+      In-class quizzes: 10%<br>
+      Assignments (5 total, each with 7%): 35%<br>
+      Kaggle competition: 20%<br>
+      Final Project: 30%<br>
+    </div>
+    <div class="col-md-4">
+      <h2>Assignment and Project Details</h2>
+      Details on assigments and projects will be posted via links on the <a href="syllabus.html">course syllabus</a> throughout the semester. 
+    </div>
+    <div class="col-md-4">
+      <h2>Textbook and Software</h2>
+      <b>Textbook: </b><a href="http://www-bcf.usc.edu/~gareth/ISL/">An Introduction to Statistical Learning (ISL)</a> by Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani, 2013. <br>
+      <b>Software: </b>We will use Python 3.x. Our recommendation is to use the <a href='https://www.anaconda.com/download/'>Anaconda distribution</a> (which includes packages numpy, scipy, matplotlib, and pandas).
+    </div>
+  </div>
+</div>
+
+<div class="sechighlight">
+<div class="container sec">
+  <h2>Prerequisites</h2>
+  This course moves quickly, so having a firm grasp on prerequisites is important. The prerequisites are:
+  <ul>
+    <li><span class="spanh">Programming:</span> Fundamentals of programming in either Python, R, MATLAB, C/C++, or Java.<br>
+    Required: COMPSCI 201 (Data Structures and Algorithms) or equivalent.</li>
+    <li><span class="spanh">Mathematics:</span> Calculus and Linear Algebra. <br>
+    Required: MATH 21 (Introductory Calculus) or equivalent and have experience with derivatives and matrix operations</li>
+    <li><span class="spanh">Statistics:</span> Introductory probability and statistics.<br>
+    Required: STA 101 (Data Analysis and Statistical Inference) or equivalent.</li>
+  </ul>
+</div>
+</div>
+
+<div class="container sec">
+  <h2>Detailed description</h2>
+  <p>This course will begin with exploring the purpose of machine learning told through a discussion of the types of problems that machine learning can answer: description of the data – “what has happened?”, predictions based on the data – “what will happen?”, or prescription – “what should happen?” Then we will discuss the tools at our disposal to answer these questions, namely supervised learning including classification and regression; unsupervised learning including clustering and density estimation; and lastly reinforcement learning. There will be a strong focus on how to formulate a machine learning problem. Central to that formulation will be developing an understanding of how to preprocess data for analysis (normalization, cleaning, etc.), sampling and dimensionality reduction, feature and model selection, and performance evaluation with cross validation. The final topic of this course will be a brief overview of state-of-the-art machine learning techniques such as deep learning.</p>
+  <p>Throughout this course, the focus will be on applying algorithms rather than diving deeply into theory. You will be asked to consider the practical issues of machine learning problem solving: challenges of applying machine learning code packages, striving for parsimony and interpretability, and ensuring model assumptions are valid for a given problem and dataset. This course will also stress the importance of team-based collaboration, the value of producing fully reproducible and validated results, and tools to help with both such as version control and code repositories.</p>
+
+  <p><b>Communicating your results.</b> Data science solutions are only as impactful as the communicator who shares them. Throughout this course all deliverables will include a Jupyter Notebook. This is an interactive writing and coding tool that allow you to combine formatted text, code and output from code including plots, as well as mathematical equations all in one location. Demonstrating competency in data science means (a) exhibiting a working knowledge of technical concepts including programming, statistics, and mathematics and (b) being able to clearly communicate the problem you were trying to solve or question you were trying to answer, why it matters, and how well your analysis worked. You will have opportunities to practice communicating what you learn and in doing so develop a stockpile of content that you could use to establish your own data science portfolio (for more ideas on creating a data science portfolio, follow this link).</p>
+  
+  <h2>Course Policies</h2>
+  <p><b>Academic dishonesty.</b> Adherence to the Duke Community Standard is expected. To uphold the Duke Community Standard:<br>
+  I will not lie, cheat, or steal in my academic endeavors;<br>
+  I will conduct myself honorably in all my endeavors; and<br>
+  I will act if the Standard is compromised<br>
+  Anyone found in violation of the Standard will be reported to the Office of Student Conduct.</p>
+  <p><b>Accommodations.</b> If you need special accommodations due to physical or learning disabilities, medical needs, religious practices, or other reasons, please inform us as soon as possible so we can work to accommodate those needs.</p>
+  <p><b>Late Assignments.</b> Assignments and projects are due in class on the date posted. Late deliverables will not be accepted after the deadline, and a grade of 0 will be assigned.</p>
+
+</div>
+
+<div class="sechighlight">
+<div id="footer">
+  <div id="footermsg">Website design inspired by the <a href="http://cs231n.stanford.edu/">Stanford CS231 course page</a></div>
+
+</div>
+</div>
+
+<!-- jQuery and Boostrap -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
